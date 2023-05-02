@@ -1,0 +1,88 @@
+body {
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
+#header {
+    background: skyblue;
+    width: 100%;
+}
+
+#header h1 {
+    background: skyblue;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 90px;
+    height: 240px;
+}
+
+#award {
+    float: left;
+    margin-top: -150px;
+    padding-left: 700px;
+    -webkit-transform: rotate(10deg);
+
+}
+
+#coupon {
+    float: left;
+    position: fixed;
+    margin-top: -1000px;
+    margin-left: -25px;
+}
+
+#header img,
+#header span {
+    float: left;
+}
+
+#header span {
+    color: white;
+    padding: 100px 30px;
+}
+
+#main {
+    /* background: pink; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#profile,
+#vms,
+#linklist {
+    float: left;
+    padding: 10px 20px;
+}
+
+#profile {
+    background: turquoise;
+    width: 250px;
+    margin-right: 25px;
+}
+
+#vms {
+    width: 530px;
+    margin-right: 25px;
+}
+
+#linklist {
+    width: 250px;
+    padding-top: 50px;
+    background: url('./image/book.png') repeat-x top turquoise;
+}
+
+#footer {
+    clear: left;
+    text-align: center;
+    background: skyblue;
+    height: 50px;
+    padding: 10px;
+}
+
+#vision .p3 {
+    background: url('./image/spark.gif') no-repeat left center skyblue;
+    width: 300px;
+    margin-left: 50px;
+    padding: 20px 20px 20px 75px;
+    border: 1px dotted blue;
+} 
